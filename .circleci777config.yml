@@ -1,0 +1,62 @@
+version: 2.1
+jobs:
+  Mainan_01:
+    docker:
+      - image: circleci/clojure:lein-2.9.5
+
+    steps:
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: RunGasssPoolllllllll
+          command: |
+            ls
+      
+  Mainan_02:
+    docker:
+      - image: circleci/clojure:lein-2.9.5
+
+    steps:
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: RunGasssPoolllllllll
+          command: |
+            ls
+      
+  Mainan_03:
+    docker:
+      - image: circleci/clojure:lein-2.9.5
+
+    steps:
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: RunGasssPoolllllllll
+          command: |
+            ls
+      
+  Mainan_04:
+    docker:
+      - image: circleci/clojure:lein-2.9.5
+
+    steps:
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: RunGasssPoolllllllll
+          command: |
+            ls
+
+workflows:
+    version: 2.1
+    build:
+        jobs:
+            - Mainan_01
+            - Mainan_02
+            - Mainan_03
+            - Mainan_04
